@@ -42,7 +42,7 @@ typedef  unsigned __int64 POSFILE;
 #else
 #include <sys/types.h>
 
-typedef u_int64_t POSFILE;
+typedef uint64_t POSFILE;
 #endif
 
 typedef struct HfInfo
